@@ -1,8 +1,29 @@
-#Göttingen
+---
+---
 
-##Intro
+# Göttingen
 
-##Tabs
+## Pattern
+:::vexflow
+options  timeSignature=3/4
+staff
+  bar
+      D5/q, B4, G4, A4
+  bar
+      D5/q, B4, G4, A4
+  bar
+     D5/q, B4, G4, A4
+staff
+  bar
+      (G2 G3)/w
+  bar
+      (B1 B2)/w
+  bar
+      (C2 C3)/h, C3
+:::
+
+
+## Tabs
 
 c1:      Am                   Dm
 l1:  Bien sûr ce n'est pas la Seine 
