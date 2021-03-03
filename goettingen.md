@@ -5,16 +5,24 @@
 
 ## Intro
 :::vexflow
-options  timeSignature=3/4
+options  timeSignature=3/4 width=1000
 staff 
-  bar width=150
-      A4/q/r, (A3 C4 E4)/q, (A3 C4 E4)/q
+  bar width=200
+      A4/q/r{Am}, (A3 C4 E4)/q, (A3 C4 E4)/q
   bar
-      A4/q/r, (A3 D4 F4)/h
+      A4/q/r{Dm}, (A3 D4 F4)/h
   bar
-      A4/q/r, (B3 D4 F4)/q, (B3 D4 F4)/q
+      A4/q/r{G7}, (B3 D4 F4)/q, (B3 D4 F4)/q
   bar
-      A4/q/r, (C4 E4 G4)/h
+      A4/q/r{C}, (C4 E4 G4)/h
+  bar 
+      A4/q/r{Am}, (A3 C4 E4)/q, (A3 C4 E4)/q
+  bar
+      A4/q/r{Dm}, (A3 D4 F4)/h
+  bar
+      A4/q/r{E}, (G#3 B3 E4)/q, (G#3 B3 E4)/q
+  bar
+      A4/q/r{Am}, (A3 C4 E4)/h
 staff
   bar
       A2/h.
@@ -24,20 +32,6 @@ staff
       G2/h.
   bar
       C3/h.
-:::
-
-:::vexflow
-options  timeSignature=3/4
-staff 
-  bar width=150
-      A4/q/r, (A3 C4 E4)/q, (A3 C4 E4)/q
-  bar
-      A4/q/r, (A3 D4 F4)/h
-  bar
-      A4/q/r, (G#3 B3 E4)/q, (G#3 B3 E4)/q
-  bar
-      A4/q/r, (A3 C4 E4)/h
-staff
   bar
       A2/h.
   bar
@@ -47,6 +41,84 @@ staff
   bar
       A2/h.
 :::
+
+## Patern
+:::vexflow
+options  timeSignature=3/4 width=1000
+staff 
+  bar width=200
+      A4/q/r{Am},(A3 C4 E4)/q, (A3 C4 E4)/q
+  bar
+      A4/q/r{Dm},(A3 D4 F4)/q, (A3 D4 F4)
+  bar
+      A4/q/r{G7},(B3 D4 F4)/q, (B3 D4 F4)/q
+  bar
+      A4/q/r{C}, (C4 E4 G4)/q, (C4 E4 G4)/q
+  bar 
+      A4/q/r{Am},(A3 C4 E4)/q, (A3 C4 E4)/q
+  bar
+      A4/q/r{Dm},(A3 D4 F4)/q, (A3 D4 F4)
+  bar width=150
+      A4/q/r{B7}, (A3 D#4 F#4)/q, (A3 D#4 F#4)
+  bar
+      A4/q/r{E}, (G#3 B3 E4)/q, (G#3 B3 E4)/q
+
+staff
+  bar
+      A2/h.
+  bar
+      D3/h.
+  bar
+      G2/h.
+  bar
+      C3/h.
+  bar
+      A2/h.
+  bar
+      D3/h.
+  bar
+      B2/h.
+  bar
+      E2/h.
+:::
+:::vexflow
+options  timeSignature=3/4 width=1000
+staff 
+  bar width=200
+      A4/q/r{Am},(A3 C4 E4)/q, (A3 C4 E4)/q
+  bar
+      A4/q/r{Dm},(A3 D4 F4)/q, (A3 D4 F4)
+  bar
+      A4/q/r{G7},(B3 D4 F4)/q, (B3 D4 F4)/q
+  bar
+      A4/q/r{C}, (C4 E4 G4)/q, (C4 E4 G4)/q
+  bar 
+      A4/q/r{Am},(A3 C4 E4)/q, (A3 C4 E4)/q
+  bar
+      A4/q/r{Dm},(A3 D4 F4)/q, (A3 D4 F4)
+  bar
+      A4/q/r{E}, (G#3 B3 E4)/q, (G#3 B3 E4)/q
+  bar
+      A4/q/r{Am},(A3 C4 E4)/q, (A3 C4 E4)
+staff
+  bar
+      A2/h.
+  bar
+      D3/h.
+  bar
+      G2/h.
+  bar
+      C3/h.
+  bar
+      A2/h.
+  bar
+      D3/h.
+  bar
+      E2/h.
+  bar
+      A2/h.
+:::
+
 
 
 ## Tabs
