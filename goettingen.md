@@ -5,7 +5,7 @@
 
 ## Intro
 :::vexflow
-options font=jazz timeSignature=3/4 width=1000
+options timeSignature=3/4 width=1000
 staff 
   bar width=200
       A4/q/r{Am}, (A3 C4 E4)/q, (A3 C4 E4)/q
@@ -44,9 +44,9 @@ staff
 
 ## Pattern
 :::vexflow
-options font=Petaluma timeSignature=3/4 width=1000
+options timeSignature=3/4 width=1000
 staff 
-  bar width=180
+  bar width=200
       A4/q/r{Am},(A3 C4 E4)/q, (A3 C4 E4)/q
   bar
       A4/q/r{Dm},(A3 D4 F4)/q, (A3 D4 F4)
@@ -58,7 +58,7 @@ staff
       A4/q/r{Am},(A3 C4 E4)/q, (A3 C4 E4)/q
   bar
       A4/q/r{Dm},(A3 D4 F4)/q, (A3 D4 F4)
-  bar width=150
+  bar 
       A4/q/r{B7}, (A3 D#4 F#4)/q, (A3 D#4 F#4)
   bar
       A4/q/r{E}, (G#3 B3 E4)/q, (G#3 B3 E4)/q
