@@ -42,11 +42,11 @@ staff
       A2/h.
 :::
 
-## Patern
+## Pattern
 :::vexflow
 options  timeSignature=3/4 width=1000
 staff 
-  bar width=200
+  bar width=180
       A4/q/r{Am},(A3 C4 E4)/q, (A3 C4 E4)/q
   bar
       A4/q/r{Dm},(A3 D4 F4)/q, (A3 D4 F4)
@@ -119,7 +119,44 @@ staff
       A2/h.
 :::
 
+:::vexflow
+options  timeSignature=3/4 width=1000
+staff 
+  bar width=180
+      A4/q/r{Am},(A3 C4 E4)/q, (A3 C4 E4)/q
+  bar
+      A4/q/r{Dm},(A3 D4 F4)/q, (A3 D4 F4)
+  bar
+      A4/q/r{G7},(B3 D4 F4)/q, (B3 D4 F4)/q
+  bar
+      A4/q/r{C}, (C4 E4 G4)/q, (C4 E4 G4)/q
+  bar 
+      A4/q/r{A7},(G3 C#4 E4)/q, (G3 C#4 E4)/q
+  bar
+      A4/q/r{Dm},(A3 D4 F4)/q, (A3 D4 F4)
+  bar width=150
+      A4/q/r{B7}, (A3 D#4 F#4)/q, (A3 D#4 F#4)
+  bar
+      A4/q/r{E}, (G#3 B3 E4)/q, (G#3 B3 E4)/q
 
+staff
+  bar
+      A2/h.
+  bar
+      D3/h.
+  bar
+      G2/h.
+  bar
+      C3/h.
+  bar
+      A2/h.
+  bar
+      D3/h.
+  bar
+      B2/h.
+  bar
+      E2/h.
+:::
 
 ## Tabs
 
