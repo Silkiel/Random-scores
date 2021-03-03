@@ -7,7 +7,7 @@
 :::vexflow
 options timeSignature=3/4 width=1000
 staff 
-  bar width=200
+  bar 
       A4/q/r{Am}, (A3 C4 E4)/q, (A3 C4 E4)/q
   bar
       A4/q/r{Dm}, (A3 D4 F4)/h
